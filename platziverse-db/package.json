@@ -1,0 +1,22 @@
+{
+  "name": "platziverse-db",
+  "version": "1.0.0",
+  "description": "A simple IoT Platform - Db module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brapastor/node-advanced.git"
+  },
+  "author": "brapastor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brapastor/node-advanced/issues"
+  },
+  "homepage": "https://github.com/brapastor/node-advanced#readme",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
