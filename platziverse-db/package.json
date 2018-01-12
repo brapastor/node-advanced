@@ -4,6 +4,7 @@
   "description": "A simple IoT Platform - Db module",
   "main": "index.js",
   "scripts": {
+    "setup": "DEBUG=platziverse:* node setup.js",
     "lint": "standard"
   },
   "repository": {
@@ -17,6 +18,14 @@
   },
   "homepage": "https://github.com/brapastor/node-advanced#readme",
   "devDependencies": {
+    "chalk": "^2.3.0",
+    "debug": "^3.1.0",
+    "inquirer": "^5.0.0",
     "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.31.0"
   }
 }
